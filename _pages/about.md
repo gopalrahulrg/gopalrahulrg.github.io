@@ -4,7 +4,7 @@ permalink: /about/
 header:
 ---
 
-<p style='text-align: justify;'>Rahul is based n Bangalore and currently works for Turbo Energy Private Limited as a Senior Member in the Engineering, Resaearch & Deveopment team where he provides solutions to problems using various computational science and data analysis/machine learning techniques. A copy of his updated resume is available **here**; you may look up things via posts on my **blog**.
+<p style='text-align: justify;'>Rahul is based n Bangalore and currently works for Turbo Energy Private Limited as a Senior Member in the Engineering, Research & Deveopment team where he provides solutions to problems using various computational science and data analysis/machine learning techniques. A copy of his updated resume is available **here**; you may look up things via posts on my **blog**.
 
 He holds a Master of Science degree from [University of California at Irvine](https://uci.edu/) and a Bachelor's degree in Engineering from [The University of Manchester](https://www.manchester.ac.uk/).
 
