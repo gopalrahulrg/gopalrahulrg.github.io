@@ -10,4 +10,4 @@ header:
 
 <p style='text-align: justify;'>During his time as a student, he developed an appreciation for design and ergonomics; he would like to combine this knowledge along with the use of artifical intelligence to enable great user experiences.<p>
   
-<a href=_profile/RahulGopalakrishnan_DesignPortfolio_2014.pdf target="_blank">r&eacute;sum&eacute</a>
+<a href=_profile/RahulGopalakrishnan_DesignPortfolio_2014.pdf target="_blank">resume</a>
