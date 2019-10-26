@@ -1,7 +1,7 @@
 ---
 layout: posts
 permalink: /blog/
-title: "Blog"
+title: ""
 author_profile: true
 header:
 ---
