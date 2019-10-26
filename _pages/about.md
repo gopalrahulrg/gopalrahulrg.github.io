@@ -8,6 +8,6 @@ header:
 
 <p style='text-align: justify;'>He holds a Master of Science degree from <a href="https://uci.edu/">University of California at Irvine</a> and a Bachelor's degree in Engineering from <a href="https://www.manchester.ac.uk/">The University of Manchester</a>.<p>
 
-<p style='text-align: justify;'>During his time as a student, he developed an appreciation for design and ergonomics; he would like to combine this knowledge along with the use of artifical intelligence to enable great user experiences.<p>
+<p style='text-align: justify;'>During his time as a student, he developed an appreciation for <a href="https://github.com/gopalrahulrg/gopalrahulrg.github.io/raw/master/_profile/RahulGopalakrishnan_DesignPortfolio_2014.pdf">design</a> and ergonomics; he would like to combine this knowledge along with the use of artifical intelligence to enable great user experiences.<p>
   
-<a href="https://github.com/gopalrahulrg/gopalrahulrg.github.io/raw/master/_profile/RahulGopalakrishnan_DesignPortfolio_2014.pdf">resume</a>
+
