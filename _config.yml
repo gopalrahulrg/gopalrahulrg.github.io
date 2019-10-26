@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rahul Gopalakrishnan" 
+title                    : # "Rahul Gopalakrishnan" 
 title_separator          : "-"
 name                     : "Michael Rose"
 description              : 
@@ -84,7 +84,7 @@ analytics:
 
 # Site Author
 author:
-#  name             : "Rahul Gopalakrishnan"
+  name             : "Rahul Gopalakrishnan"
   avatar           : "/images/bio_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computational Engineer | Data Scientist"
   location         : "Bengaluru, Karnataka"
