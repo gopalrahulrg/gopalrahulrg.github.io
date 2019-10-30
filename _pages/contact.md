@@ -1,8 +1,6 @@
 ---
-layout: posts
-permalink: /contact/
 title: ""
-author_profile: true
+permalink: /contact
 header:
 ---
 
