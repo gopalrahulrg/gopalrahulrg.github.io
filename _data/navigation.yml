@@ -7,7 +7,7 @@ main:
   - title: "Recreational"
     url: /recreational/
   - title: "Contact"
-    url: /contact_info/
+    url: /contact/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
