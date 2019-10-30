@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /contact
+permalink: /contact/
 header:
 ---
 
