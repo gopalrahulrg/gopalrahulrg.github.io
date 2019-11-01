@@ -1,5 +1,5 @@
 ---
-title: "Bangalore: The Battle of Neighborhoods"
+title: "Bangalore: Sample"
 date: 2019-11-01
 tags: [data science, machine learning, unsupervised learning, clustering] 
 header:
