@@ -1,7 +1,7 @@
 ---
 layout: posts
 permalink: /blog/
-title: ""
+title: "Data Science Posts by Tags"
 author_profile: true
 header:
 ---
