@@ -35,39 +35,13 @@ Unfortunately, public data related to demographic and social parameters for all 
 
 <font size="5"><h3>Methodology</h3></font>
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/f1.jpg">
-<p></p>
-<p>Hi hi hi hi h1 h1</p>
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/1-f_2.jpg">
-
 <p>Hi</p>
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/cnbr/cnbr_1.jpg">
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cnbr/f1.jpg">
 
 <p>hi</p>
-
-Python code block:
-
-```python
-    import numpy as np
-
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
-
-R code block:
-
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
 
 
 
