@@ -48,6 +48,7 @@ Unfortunately, public data related to demographic and social parameters for all 
 <p>hi</p>
 
 Python code block:
+
 ```python
     import numpy as np
 
@@ -57,6 +58,7 @@ Python code block:
 ```
 
 R code block:
+
 ```r
 library(tidyverse)
 df <- read_csv("some_file.csv")
