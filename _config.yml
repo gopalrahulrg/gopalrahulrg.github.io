@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : #"Rahul Gopalakrishnan"
-  avatar           : "/assets/images/avatar/bio_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/avatar/bio_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #"Computational Engineer | Data Scientist"
   location         : "Bengaluru, Karnataka"
   home             : # null (default), "absolute or relative url to link to author home"
