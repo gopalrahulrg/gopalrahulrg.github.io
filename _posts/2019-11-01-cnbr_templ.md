@@ -4,6 +4,7 @@ date: 2019-11-01
 tags: [data science, machine learning, unsupervised learning, clustering] 
 header:
 excerpt: "Clustering, Machine Learning, Data Science"
+mathjax: true
 ---
 
 ## Restaurant Densities in Bangalore
@@ -44,7 +45,27 @@ Unfortunately, public data related to demographic and social parameters for all 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cnbr/f1.jpg">
 
+<p>hi</p>
 
+Python code block:
+```python
+    import numpy as np
+
+    def test_function(x, y):
+      z = np.sum(x,y)
+      return z
+```
+
+R code block:
+```r
+library(tidyverse)
+df <- read_csv("some_file.csv")
+head(df)
+```
+
+$$z=x+y$$
+
+You can also put it inline $$z=x+y$$
 
 
 
