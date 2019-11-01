@@ -38,6 +38,12 @@ Unfortunately, public data related to demographic and social parameters for all 
 
 <font size="5"><h3>Methodology</h3></font>
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/f1.jpg">
+
+<p>Hi hi hi hi h1 h1</p>
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/1-f_2.jpg">
+
 
 
 
