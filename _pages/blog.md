@@ -6,5 +6,5 @@ author_profile: true
 header:
 ---
 
-<font size="4"><p style='text-align: justify;'>Data Science & Computer Science Posts<p>
+<font size="4"><p style='text-align: justify;'>Library of Posts<p>
 
