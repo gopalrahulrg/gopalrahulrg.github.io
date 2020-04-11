@@ -1,0 +1,81 @@
+---
+title: "JavaPresse: Critical Review Identification"
+date: 2019-04-11
+tags: [data science, natural language processing, machine learning, supervised learning, classification, hyperparameter tuning] 
+header:
+excerpt: "Classification, Data Harvesting"
+mathjax: true
+---
+
+## Feedback on JavaPresse Coffee Grinder
+
+<font size="5"><h3>Background</h3></font>
+
+<font size="4"><div style="text-align: justify"><p> JavaPresse produces and sells possibly the most popular manual coffee grinder in the world which is available for purchase on various Ec-commerce stores including the company's website and Amazon.</p>
+  
+<div style="text-align: justify"><p>The majority of the cutomers that have purchased the product seem to have been satisfied with unsatisfactory feedback seeming to be relatively low.</p></div>
+
+<font size="5"><h3>Data Description</h3></font>
+
+<font size="4"><p>Data was acquired from Amazon using web scraping which includes</p>
+
+<ul>
+  <li>5000 descriptive reviews left by various customers;</li>
+  <li>The corresponding star rating on a scale of 1-5 (with 1 being the lowest).</li>
+</ul>
+
+<div style="text-align: justify"><p>The dataset used for the project is available on Kaggle and can be accessed using <a href="https://www.kaggle.com/gopalrahulrg/amazon-reviews-javapresse-coffee-grinder">this</a> link.</p>
+
+<font size="5"><h3>Methodology</h3></font>
+
+<p></p>
+
+<div style="text-align: justify"><p>The master data contains reviews that are divided into five different classes and a preview is shown below.</p>
+
+<p></p>
+
+<div style="text-align: center"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/cjcr/cjcr_1.jpg">
+  
+<p></p>
+
+<div style="text-align: justify"><p>Visualization of the class distributions after reccategorization into two different classes, namely positive/non critical (denoted as 1 in the chart) and negative/critical (denoted as 0 in the chart) shows that the latter are in the minority as mentioned earlier.</p>
+
+<div style="text-align: center"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/cjcr/cjcr_2.jpg">
+  
+<p></p>
+
+<div style="text-align: justify"><p>The text data was cleaned using a variety of techniques including removal of special characters and stopwords through tokenization</b>.</p>
+
+<div style="text-align: justify"><p>Various machine learning algorithms including a simple feedforward neural network were selected to build a classification model through undersampling and assigning class weights using tf-idf (and word embeddings for the latter)  to evaluate their performances on the available data.</p> 
+
+<div style="text-align: justify"><p>Since the data is highly imblanced, conventional evaluation techniques like accuracy weren't deemed suitable to evaluate model performance; F1-Metric for the minority class was used instead by defining a customer scorer.</p> 
+  
+<font size="5"><h3>Results</h3></font>
+
+<div style="text-align: justify"><p>Although it was able to produce recall scores of up to 85 %, precision for various model using Undersampling was lower than 50 % for the target class. Comparatively, using class weights (with both tf-idf and word embeddings) resulted in over 80 % recall, 50 % precision and higher F1-Scores. The neural network model was overfitting (most likely due to lack of sufficient training data as shown below) and was outperformed by logistic regression and support vector classifiers.</p>
+
+<div style="text-align: center"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/cjcr/cjcr_3.jpg">
+  
+<p></p>
+
+<div style="text-align: center"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/cjcr/cjcr_4.jpg">
+  
+<p></p>
+
+<div style="text-align: justify"><p>Finally, a grid search was performed for hyperparameter tuning to improve model performance (whilst modeling with class weights); the corresponding confusion matrices and evaluation metrics are shown below.</p>
+
+<div style="text-align: center"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/cjcr/cjcr_5.jpg">
+  
+<p></p>
+
+<div style="text-align: center"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/cjcr/cjcr_6.jpg">
+  
+<p></p>
+
+<div style="text-align: justify"><p>A copy of the working notebook is available <a href="https://github.com/gopalrahulrg/gopalrahulrg.github.io/blob/master/assets/books/cnbr/rg_cnbr_15_11_2019.ipynb">here</a> and a short presentation video is available here.</p>
+
+<font size="5"><h3>Conclusion</h3></font>
+
+<div style="text-align: justify"><p>There is a high demand for varied cuisine in the city of Bangalore and this is confirmed by Foursquare data.</p>
+  
+<div style="text-align: justify"><p>Data on demographics and employment wasn't available to assess people's spending power but analysis of the data available at hand seems to show untapped market potential in those neighborhoods away from the center of the city and this information could be useful to a restaurateur.</p>
