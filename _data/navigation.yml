@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Blog"
     url: /blog/
-  - title: "Recreational"
-    url: /recreational/
+  - title: "Recreation"
+    url: /recreation/
   - title: "Contact"
     url: /contact/
   # - title: "About"
